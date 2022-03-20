@@ -17,7 +17,7 @@ async def _start(client, message):
             if user.status == "kicked":
                await client.send_message(
                    chat_id=message.chat.id,
-                   text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/UniversalBotsSupport).",
+                   text="Sorry Sir, You are B A N N E D. Contact my [B O S S](https://t.me/HARSHU_Xd).",
                    parse_mode="markdown",
                    disable_web_page_preview=True
                )
@@ -42,11 +42,11 @@ async def _start(client, message):
 	        reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                           InlineKeyboardButton("Join Updates Channel", url="https://t.me/UniversalBotsUpdate"),
-                           InlineKeyboardButton("Support Group", url="https://t.me/UniversalBotsSupport")
+                           InlineKeyboardButton("Join Updates Channel", url="https://t.me/STARTERBOTZ"),
+                           InlineKeyboardButton("Support Group", url="https://t.me/HARSHU_XD")
                       ],
                      [
-                           InlineKeyboardButton("🧑‍💻Devloper🧑‍💻", url="https://t.me/JigarVarma2005")
+                           InlineKeyboardButton("🧑‍💻B O S S🧑‍💻", url="https://t.me/HARSHU_XD")
                      ]
                  ]
              ),
@@ -59,11 +59,11 @@ async def _start(client, message):
 	reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("Join Updates Channel", url="https://t.me/UniversalBotsUpdate"),
-                    InlineKeyboardButton("Support Group", url="https://t.me/UniversalBotsSupport")
+                    InlineKeyboardButton("Join Updates Channel", url="https://t.me/STARTERBOTZ"),
+                    InlineKeyboardButton("Support Group", url="https://t.me/HARSHU_XD")
                 ],
                 [
-                    InlineKeyboardButton("🧑‍💻Devloper🧑‍💻", url="https://t.me/JigarVarma2005")
+                    InlineKeyboardButton("🧑‍💻B O S S🧑‍💻", url="https://t.me/HARSHU_XD")
                 ]
             ]
         ),
@@ -79,14 +79,14 @@ async def _source_code(client, message):
 	reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("Souce Code", url="https://github.com/Jigarvarma2005/ForceSub_Bot")
+                    InlineKeyboardButton("MUST VISIT", url="https://github.com/STARTERNETWORKZ")
                 ],
                 [
-                    InlineKeyboardButton("Join Updates Channel", url="https://t.me/UniversalBotsUpdate"),
-                    InlineKeyboardButton("Support Group", url="https://t.me/UniversalBotsSupport")
+                    InlineKeyboardButton("Join Updates Channel", url="https://t.me/StarterBotz"),
+                    InlineKeyboardButton("Support Group", url="https://t.me/harshu_xd")
                 ],
                 [
-                    InlineKeyboardButton("🧑‍💻Devloper🧑‍💻", url="https://t.me/JigarVarma2005")
+                    InlineKeyboardButton("🧑‍💻B O S S🧑‍💻", url="https://t.me/harshu_xd")
                 ]
             ]
         ),
@@ -103,7 +103,7 @@ async def _help(client, message):
             if user.status == "kicked":
                await client.send_message(
                    chat_id=message.chat.id,
-                   text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/UniversalBotsSupport).",
+                   text="Sorry Sir, You are B A N N E D. Contact my [B O S S](https://t.me/HARSHU_XD).",
                    parse_mode="markdown",
                    disable_web_page_preview=True
                )
@@ -125,7 +125,7 @@ async def _help(client, message):
         except Exception:
             await client.send_message(
                 chat_id=message.chat.id,
-                text="Hey use this command in my pm. \nFor more help ask in my [Support Group](https://t.me/UniversalBotsSupport).",
+                text="Hey use this command in my pm. \nFor more help ask in my [B O S S](https://t.me/HARSHU_XD).",
                 parse_mode="markdown",
                 disable_web_page_preview=True)
             return
